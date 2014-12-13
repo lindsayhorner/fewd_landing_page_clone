@@ -81,7 +81,7 @@ ol, ul {
 
 /*Intro*/
 .introduction {
-    background-image: url('../img/first-background.jpg');
+    background-image: url('../images/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,6 +93,8 @@ ol, ul {
     color: white;
     text-align: center;
     font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 .introduction h1 {
     margin-top: 17.5rem;
@@ -104,18 +106,20 @@ ol, ul {
 }
 
 /*Buttons*/
-.introduction .buttons {
-    color: white;
-    text-align: center;
-    margin-top: 1.563rem;
-}
-
 .big-button {
-    text-shadow: none;
-    border-style: none;
+    width: 10rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
     border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    margin:0 auto;
+}
+.big-button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
 
 /*Three Buttons*/

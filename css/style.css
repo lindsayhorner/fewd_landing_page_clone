@@ -42,6 +42,7 @@ ol, ul {
     margin: 0 auto;
     width: 970px;
     height: 70px;
+    font-family: 'Roboto', sans-serif;
 }
 /* Navigation Section */
 .top-navigation {
@@ -107,14 +108,16 @@ ol, ul {
 
 /*Buttons*/
 .big-button {
-    width: 10rem;
     background-color: #f15a29;
     border-color: #f15a29;
     border-radius: 4px;
-    padding: 1rem 1.5rem;
+    border-style: none;
     color: white;
     font-size: 1.125rem;
-    margin:0 auto;
+    margin:2 auto;
+    padding: 1rem 1.5rem;
+    width: 10rem;
+    display: in
 }
 .big-button:hover {
     background-color: #d9400e;
@@ -152,4 +155,46 @@ ol, ul {
 .cases .devices p {
     font-weight: 300;
     font-size: 1.313rem;
+}
+
+/**
+ * Footer
+ */
+.footer {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.footer hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.footer .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.footer .icons > li:hover {
+    cursor: pointer;
+}
+.footer .twitter {
+    color: #55acee;
+}
+.footer .facebook {
+    color: #4c66a4;
+}
+.footer .instagram {
+    color: #3f729b;
+}
+.footer .copyright {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #838994;
 }

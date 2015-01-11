@@ -114,10 +114,10 @@ ol, ul {
     border-style: none;
     color: white;
     font-size: 1.125rem;
-    margin:2 auto;
+    margin:2rem auto;
     padding: 1rem 1.5rem;
     width: 10rem;
-    display: in
+    display: block;
 }
 .big-button:hover {
     background-color: #d9400e;
@@ -177,7 +177,7 @@ ol, ul {
     height: 2.5rem;
     display: inline-block;
     margin: 1.25rem 5px;
-    border: 1px solid #eaebec;
+    border: 2px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
 }
